@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Registration form</title>
+</head>
+<body>
+    <form action="Submit.php" method="post" novalidate>
+    <fieldset>
+    <legend for="genarel">Genarel</legend><br><br>
+    <level for="f_name">First name</level>
+    <input type="text" id="f_name" name="f_name"><br><br>
+    <level for="lname">Last name</level>
+    <input type="text" id="lname" name="lname"><br><br>
+    <level for ="gender">Gender</level>
+    <input type="radio" id="male" name="gender" value="MALE" >
+    <level for ="male">Male</level>
+    <input type="radio" id="female" name="gender" value="Female">
+    <level for ="female">Female</level>
+    <br><br><br><br>
+    </fieldset>
+    <fieldset>
+    <legend for="contact">Contact</legend><br><br>
+    <level for="email">Email</level>
+    <input type="text" id="email" name="email"></level><br><br>
+    <level for="mobile_no">Mobile no</level>
+    <input type="number" id="mobile_no" name="mobile_no">
+    <br><br><br>
+    </fieldset>
+    <fieldset>
+    <legend for="address">Address</legend><br><br>
+    <level for="street/house/road">Street/House/Street</level>
+    <input type="text" id="street/house/road" name="street/house/road"><br><br>
+    <level for="country">Coutry</level>
+    <select id="country" name="country">
+        <option value="bangladesh">BANGLADESH</option>
+        <option value="india">INDIA</opton>
+        <option value="pakistan">PAKISTAN</option>
+    </select>
+</fieldset>
+<input type="submit" name="Register">
+    
+    </form>
+</body>
+</html>
